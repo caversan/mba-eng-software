@@ -18,10 +18,6 @@
 - [Configuração e Instalação](#-configuração-e-instalação)
 - [Uso do Sistema](#-uso-do-sistema)
 - [Segurança](#-segurança)
-- [Análise de Dados](#-análise-de-dados)
-- [Contribuições Acadêmicas](#-contribuições-acadêmicas)
-- [Trabalhos Futuros](#-trabalhos-futuros)
-- [Referências](#-referências)
 
 ---
 
@@ -473,142 +469,6 @@ Valor do dimmer alvo: 0 %
   "eficiencia": "+18.5%"
 }
 ```
-
----
-
-## 🎓 Contribuições Acadêmicas
-
-### 📚 Aspectos de Engenharia de Software
-
-**Arquitetura e Design:**
-- Aplicação de padrões arquiteturais IoT
-- Separação de responsabilidades (sensores/gateway/cloud)
-- Design orientado a eventos (MQTT pub/sub)
-- Microserviços (consumer independente)
-
-**Qualidade e Testes:**
-- Validação de dados em múltiplas camadas
-- Tratamento robusto de exceções
-- Logging estruturado para debugging
-- Auto-recuperação de falhas de rede
-
-**Segurança by Design:**
-- Separação de configuração e código
-- Princípio do menor privilégio (Firebase rules)
-- Criptografia em trânsito (MQTT TLS)
-- Auditoria e rastreabilidade
-
-**DevOps e Operações:**
-- Controle de versão com Git
-- Documentação técnica abrangente
-- Deploy automatizado (consumer Python)
-- Monitoramento de infraestrutura
-
-### 🔬 Metodologia de Pesquisa
-
-**Abordagem Quantitativa:**
-- Coleta de dados energéticos contínua (7x24)
-- Análise estatística de eficiência
-- Comparação antes/depois da automação
-- Métricas de performance do sistema
-
-**Validação Experimental:**
-- Período de teste: 30 dias
-- Ambientes controlados (com/sem automação)
-- Medições calibradas (multímetro de referência)
-- Análise de dados reais vs. simulados
-
-### 📖 Revisão Bibliográfica
-
-**IoT e Smart Homes:**
-- Protocolos de comunicação (MQTT vs. HTTP vs. CoAP)
-- Arquiteturas edge computing vs. cloud-first
-- Segurança em dispositivos IoT
-- Eficiência energética residencial
-
-**Engenharia de Software:**
-- Padrões arquiteturais para sistemas distribuídos
-- Metodologias ágeis em projetos IoT
-- DevSecOps em ambientes embarcados
-- Qualidade de software em tempo real
-
----
-
-## 🚀 Trabalhos Futuros
-
-### 🔮 Próximas Funcionalidades
-
-**Expansão do Sistema:**
-- [ ] **Machine Learning:** Predição de consumo baseada em padrões
-- [ ] **Integração IA:** Assistente virtual para controle por voz
-- [ ] **Mobile App:** Aplicativo Flutter para monitoramento
-- [ ] **Dashboard Web:** Interface React para visualização avançada
-
-**Novos Sensores:**
-- [ ] **Temperatura/Umidade:** DHT22 para conforto ambiental
-- [ ] **Qualidade do Ar:** MQ-135 para CO2 e gases
-- [ ] **Movimento PIR:** Sensores de movimento adicionais
-- [ ] **Câmeras:** Visão computacional para ocupação
-
-**Automação Avançada:**
-- [ ] **Controle HVAC:** Integração com ar-condicionado
-- [ ] **Cortinas Automáticas:** Motor de passo para persianas
-- [ ] **Sistema de Segurança:** Alarmes e notificações
-- [ ] **Irrigação Inteligente:** Automação de jardins
-
-### 🏗️ Melhorias Técnicas
-
-**Performance:**
-- [ ] **Edge Computing:** Processamento local no ESP32
-- [ ] **Caching:** Redis para dados frequentes
-- [ ] **Compressão:** Otimização de payloads MQTT
-- [ ] **Batch Processing:** Processamento em lotes
-
-**Escalabilidade:**
-- [ ] **Kubernetes:** Orquestração de containers
-- [ ] **Load Balancing:** Distribuição de carga
-- [ ] **Multi-tenant:** Suporte múltiplas residências
-- [ ] **API Gateway:** Centralizador de APIs
-
-**Observabilidade:**
-- [ ] **Prometheus/Grafana:** Métricas operacionais
-- [ ] **ELK Stack:** Logs centralizados
-- [ ] **Alerting:** Notificações proativas
-- [ ] **Tracing:** Rastreamento distribuído
-
-### 🌱 Sustentabilidade
-
-**Energia Renovável:**
-- [ ] **Painéis Solares:** Integração com geração solar
-- [ ] **Baterias:** Sistema de armazenamento
-- [ ] **Grid Tie:** Injeção na rede elétrica
-- [ ] **Carbon Footprint:** Cálculo de pegada de carbono
-
-**Economia Circular:**
-- [ ] **Reciclagem:** Gestão de componentes eletrônicos
-- [ ] **Upcycling:** Reutilização de hardware antigo
-- [ ] **Modularidade:** Design para fácil manutenção
-- [ ] **Open Hardware:** Compartilhamento de designs
-
----
-
-## 📚 Referências
-
-### 📖 Bibliografia Técnica
-
-**IoT e Sistemas Embarcados:**
-1. Minerva, R. et al. (2015). "Towards a definition of the Internet of Things (IoT)". *IEEE Internet Initiative*.
-2. Gubbi, J. et al. (2013). "Internet of Things (IoT): A vision, architectural elements, and future directions". *Future Generation Computer Systems*, 29(7), 1645-1660.
-3. Atzori, L. et al. (2010). "The internet of things: A survey". *Computer Networks*, 54(15), 2787-2805.
-
-**Eficiência Energética:**
-4. Pérez-Lombard, L. et al. (2008). "A review on buildings energy consumption information". *Energy and Buildings*, 40(3), 394-398.
-5. Ahmad, M.W. et al. (2016). "Building energy metering and environmental monitoring – A state-of-the-art review". *Renewable and Sustainable Energy Reviews*, 61, 106-114.
-
-**Protocolos de Comunicação:**
-6. Yokotani, T. & Sasaki, Y. (2016). "Comparison with HTTP and MQTT on required network resources for IoT". *2016 International Conference on Control, Electronics, Renewable Energy and Communications (ICCEREC)*, 1-6.
-7. Naik, N. (2017). "Choice of effective messaging protocols for IoT systems: MQTT, CoAP, AMQP and HTTP". *2017 IEEE International Systems Engineering Symposium (ISSE)*, 1-7.
-
 ### 🔧 Documentação Técnica
 
 **Hardware:**
@@ -666,42 +526,13 @@ Este projeto é desenvolvido para fins acadêmicos como parte do Trabalho de Con
 
 ---
 
-## 🙏 Agradecimentos
-
-**Institucionais:**
-- [Nome da Instituição] pela infraestrutura e apoio acadêmico
-- Professores e orientadores pela direção e suporte técnico
-- Colegas de turma pelas discussões e colaborações
-- Laboratório de IoT pelos equipamentos e espaço físico
-
-**Técnicos:**
-- Comunidade Arduino pelo suporte e bibliotecas
-- Firebase/Google Cloud pela plataforma de desenvolvimento
-- CloudAMQP pela infraestrutura MQTT
-- Oracle Cloud pela hospedagem dos serviços
-
-**Pessoais:**
-- Família pelo apoio durante o desenvolvimento do projeto
-- Amigos pelas revisões e feedback construtivo
-- [Outros agradecimentos específicos]
-
----
-
 ## 📞 Suporte e Contato
 
 **Para Dúvidas Técnicas:**
-- 📧 Email: [seu-email@dominio.com]
-- 💬 Discord: [seu-usuario#1234]
-- 📱 WhatsApp: [+55 11 99999-9999]
+- 📧 Email: [adriano.caversan@gmail.com]
 
 **Para Colaborações Acadêmicas:**
-- 🎓 ResearchGate: [link-para-perfil]
-- 📚 ORCID: [0000-0000-0000-0000]
-- 🔗 LinkedIn: [link-para-linkedin]
-
-**Reportar Problemas:**
-- 🐛 Issues no GitHub: [link-para-issues]
-- 📧 Email para bugs: [bugs@projeto.com]
+- 🔗 LinkedIn: [https://www.linkedin.com/in/adriano-caversan/]
 
 ---
 
