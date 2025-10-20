@@ -1,9 +1,9 @@
-# 🏠 Sistema IoT de Monitoramento Energético e Automação Residencial
+# 🏠 Integração entre dimerizador, sensores de presença e de luminosidade para economia energética na iluminação ambiente
 
 ## 📚 Trabalho de Conclusão de Curso (TCC)
 **Curso:** MBA em Engenharia de Software  
 **Aluno:** Adriano Caversan  
-**Instituição:** [Instituição]  
+**Instituição:** [USP-ESALQ]  
 **Ano:** 2025  
 
 ---
@@ -175,7 +175,6 @@ Desenvolver um sistema IoT integrado para monitoramento energético e automaçã
 mba-eng-software/
 ├── 📄 README.md                     # Documentação principal
 ├── 📄 .gitignore                    # Proteção de arquivos sensíveis
-├── 📄 Adriano-Caversan-TCC-*.pdf    # Documento do TCC
 │
 ├── 📁 CORRENTE_TENSAO_WIFI_RTC_v2/  # Sistema de monitoramento energético
 │   └── 📄 CORRENTE_TENSAO_WIFI_RTC_v2.ino
@@ -500,13 +499,11 @@ Valor do dimmer alvo: 0 %
 **Adriano Caversan**  
 📧 Email: [adriano.caversan@email.com]  
 🎓 MBA em Engenharia de Software  
-🏢 [Instituição de Ensino]  
-📍 [Localização]  
+🏢 [USP-ESALQ]  
+📍 [São Paulo Brasil]  
 
 ### 🤝 Orientação Acadêmica
-**Orientador:** [Prof. Dr. Nome do Orientador]  
-**Coorientador:** [Prof. Me. Nome do Coorientador]  
-**Banca Examinadora:** [Nomes dos Professores]
+**Orientador:** [Prof. Me. Diogo Alfieri Palma]
 
 ---
 
@@ -538,7 +535,7 @@ Este projeto é desenvolvido para fins acadêmicos como parte do Trabalho de Con
 
 <div align="center">
 
-**🏠 Sistema IoT de Monitoramento Energético e Automação Residencial**
+**🏠 Integração entre dimerizador, sensores de presença e de luminosidade para economia energética na iluminação ambiente**
 
 *Desenvolvido com 💚 para um futuro mais eficiente e sustentável*
 
