@@ -1,0 +1,140 @@
+# Arduino IDE
+*.hex
+*.elf
+*.bin
+*.map
+*.lst
+*.lss
+*.sym
+*.bak
+*.tmp
+
+# Compilação e build
+build/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# VS Code / Arduino IDE
+.vscode/
+.arduino/
+__vm/
+*.code-workspace
+
+# Configurações sensíveis (caso sejam adicionadas no futuro)
+config.h
+secrets.h
+credentials.h
+wifi_config.h
+mqtt_config.h
+*.env
+.env*
+
+# Configurações específicas dos módulos
+MODULO-ESP01/config.h
+*/config.h
+
+# =================== CLOUD - DADOS SENSÍVEIS ===================
+# Firebase Service Account Keys (CRÍTICO)
+*firebase-adminsdk*.json
+*serviceAccountKey*.json
+CLOUD/firebase-key/*.json
+!CLOUD/firebase-key/package.json
+!CLOUD/firebase-key/package-lock.json
+
+# Chaves SSH (públicas e privadas)
+*.key
+*.key.pub
+*.pem
+*.ppk
+CLOUD/ssh-oracle/*.key*
+
+# Credenciais Python
+.env
+.env.*
+config.py
+credentials.py
+secrets.py
+
+# Backups de banco que podem conter dados sensíveis
+CLOUD/firebase-key/bkp-database/*.json
+*backup*.json
+*bkp*.json
+
+# URLs e shortcuts que podem conter tokens
+*.url
+
+# Logs de aplicações cloud
+CLOUD/logs/
+CLOUD/*/logs/
+*.log
+
+# Arquivos legacy com credenciais (movidos por segurança)
+CLOUD/legacy-insecure/
+
+# Bibliotecas compiladas
+libraries/*/build/
+libraries/*/bin/
+
+# Logs e dados de depuração
+*.log
+debug/
+logs/
+
+# Documentos temporários
+*.pdf~
+*.docx~
+
+# Backup automático
+*_backup_*
+*.backup
+
+# Arquivos de simulação
+*.sim
+*.dsn.bak
+*.ses
+
+# Arquivos específicos do Proteus (se usado)
+*.PWI
+*.DBK
+
+# Arquivos do Fritzing (se usado)
+*.fzz~
+
+# Certificados e chaves (se usados futuramente)
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+# Dados pessoais ou de teste
+test_data/
+personal_data/
+
+# Arquivos de depuração do microcontrolador
+*.asm
+*.i
+*.s
+
+# Cache e arquivos temporários
+cache/
+temp/
+tmp/
+
+# Arquivos específicos do Windows
+desktop.ini
+*.lnk
+
+# Arquivos específicos do Linux/Mac
+.directory
+.Trash-*

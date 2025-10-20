@@ -1,0 +1,11 @@
+# Dependências do projeto IoT Consumer
+# Instale com: pip install -r requirements.txt
+
+# MQTT Client
+paho-mqtt==1.6.1
+
+# Firebase Admin SDK
+firebase-admin==6.2.0
+
+# Utilitários adicionais
+python-dotenv==1.0.0  # Para carregar variáveis de ambiente de arquivo .env
